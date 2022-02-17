@@ -1,0 +1,115 @@
+
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url(../Imagens/home/background-home-desktop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: hidden;
+}
+a{
+    font-family:sans-serif;
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:normal;
+
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.top-header-logo{
+    margin: 60px 0 0 50px;
+}
+.top-header{
+    max-width: 100%;
+    position: relative;
+}
+.top-header hr{
+    width: 32%;
+    margin-left: 150px;
+    margin-top: -15px;
+    color: rgba(112, 144, 128, 0.4);
+}
+
+.top-nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 595px;
+    background:rgba(112, 144, 128, 0.4);
+    padding: 1px 5px;  
+    text-align: center;  
+   
+}
+.top-nav ol{
+    margin: 0;
+    padding: 15px;
+}
+.top-nav li{
+    display: inline-block;
+    margin:  0 15px 0 0;
+    padding: 13px
+}
+
+/*.ordened-list {
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+}*/
+.main-container{
+    position: relative;
+    margin-top: 250px;
+    margin-left: 150px;
+    width: 380px;
+    height: 300px;
+}
+.main-container h1{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: 2px; 
+}
+.main-container strong{
+    font-size: 110px;
+    font-weight: normal;
+}
+.main-container p{
+    text-align: justify;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 2px; 
+    line-height: 20px;
+
+}
+.div-1{
+    position: relative;
+    background: white;
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 280px;
+    margin-bottom: 0;
+    margin-top: -250px;
+    padding: 45px;
+    box-sizing: border-box;
+}
+.div-1 span{
+    position: absolute;
+    float: none;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    margin-top: 45px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
