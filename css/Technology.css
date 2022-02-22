@@ -1,0 +1,136 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    color: white;
+    background-image: url(../Imagens/technology/background-technology-desktop.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    overflow: scroll;
+}
+
+a{
+    font-family:sans-serif;
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight:normal;
+
+}
+p{
+    text-align: left;
+    line-height: 1.5;
+}
+span{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+.top-header-logo{
+    margin: 60px 0 0 50px;
+}
+.top-header{
+    max-width: 100%;
+    position: relative;
+}
+.top-header hr{
+    width: 32%;
+    margin-left: 150px;
+    margin-top: -15px;
+    color: rgba(112, 144, 128, 0.4);
+}
+
+.top-nav{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    left: 595px;
+    background:rgba(112, 144, 128, 0.4);
+    padding: 1px 5px;  
+    text-align: center;  
+   
+}
+.top-nav ol{
+    margin: 0;
+    padding: 15px;
+}
+.top-nav li{
+    display: inline-block;
+    margin:  0 15px 0 0;
+    padding: 13px
+}
+.main-section{
+    width: 600px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+.main-section ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.main-subtitle strong{
+    font-size: 50px;
+    font-weight: normal;
+}
+.main-img{
+    float: right;
+    margin-top: -430px;
+    zoom: 75%;
+}
+.main-article{
+    margin-top: -250px;
+    width: 500px;
+    height: 350px;
+    margin-left: 100px;
+}
+
+.article-menu{
+    margin-top: 50px;
+    
+}
+.button-default{
+    background-color:transparent;
+    border-radius: 50%;  
+    border:  2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 50px; 
+    height: 50px;  
+    transition: all .5;
+    cursor: pointer;
+    margin-bottom: 30px;
+    
+}
+.button-default:hover{
+    background-color: white;
+    border-color: transparent;
+}
