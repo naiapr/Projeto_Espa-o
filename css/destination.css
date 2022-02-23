@@ -156,3 +156,56 @@ span{
     font-weight: normal;
     line-height: .5;
 }
+@media screen and (max-width:780px){ 
+    body{
+        
+        background-image: url(../Imagens/destination/background-destination-tablet.jpg);
+        background-attachment:scroll;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        
+    }
+    
+    .top-header-logo{
+        float: left;
+    }
+    .top-nav{
+        position: absolute;
+        margin-top: -48px;
+        margin-right: -100px;
+        margin-left: -400px ;
+        width: 700px;
+        height: 80px;
+        padding: 0;  
+        text-align: left;
+       
+    }
+    .top-nav ol{
+        margin: 0;
+        padding: 15px;
+    }
+   
+    .top-nav li{
+        display: inline-block;
+    }
+
+    .img-section h1{
+        float: left;
+        margin-top: -50px;
+        margin-left: -30px;
+    }
+    .main-section{
+        margin-top: 80px;
+        margin-right: 100px;
+        text-align: center;
+    }
+    .div-1{
+        float: left;
+    }
+    .div-2{
+       margin-left: 150px;
+    }
+}

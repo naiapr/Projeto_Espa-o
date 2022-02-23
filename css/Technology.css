@@ -134,3 +134,83 @@ span{
     background-color: white;
     border-color: transparent;
 }
+.mobile{
+    display: none;
+}
+@media screen and (max-width:780px){ 
+    body{
+        
+        background-image: url(../Imagens/technology/background-technology-tablet.jpg);
+        background-attachment:scroll;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        
+    }
+    
+    .top-header-logo{
+        float: left;
+    }
+    .top-nav{
+        position: absolute;
+        margin-top: -48px;
+        margin-right: -100px;
+        margin-left: -400px ;
+        width: 700px;
+        height: 80px;
+        padding: 1px 5px;  
+        text-align: center;
+       
+    }
+    
+   
+    .top-nav li{
+        display: inline-block;
+    }
+    .main-section{
+        position: relative;
+        width: 600px;
+        height: 400px;
+        margin-top: 350px;
+        margin-left: 150px;
+        text-align: center;
+    }
+    .main-title{
+        float: left;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .main-section ul{
+        position: relative;
+        margin-top: 450px;
+        margin-left: -150px;
+    }
+    .main-section li{
+        position: relative;
+        display: inline-block;
+        padding: 20px;
+    }
+    .main-img{
+        position: absolute;
+        width: 980px;
+        height: 400px;
+        margin-top: -950px;
+    }
+    .main-article{
+        margin-top: -30px;
+        width: 500px;
+        height: 350px;
+        margin-left: -25px;
+    }
+    .desktop{
+        display: none;
+     }
+     .mobile{
+         display:block;
+         width: 100%;
+         height: 100%;
+     }
+    
+}

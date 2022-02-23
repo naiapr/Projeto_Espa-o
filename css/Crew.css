@@ -122,4 +122,69 @@ span{
     background-color: white;
     border-color: transparent;
 }
+@media screen and (max-width:780px){ 
+    body{
+        
+        background-image: url(../Imagens/crew/background-crew-tablet.jpg);
+        background-attachment:scroll;
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        
+    }
+    
+    .top-header-logo{
+        float: left;
+    }
+    .top-nav{
+        position: absolute;
+        margin-top: -48px;
+        margin-right: -100px;
+        margin-left: -400px ;
+        width: 700px;
+        height: 80px;
+        padding: 0;  
+        text-align: left;
+       
+    }
+    .top-nav ol{
+        margin: 0;
+        padding: 15px;
+    }
+   
+    .top-nav li{
+        display: inline-block;
+    }
+    .main-section p{
+        text-align: center;
+    }
+   
+    .main-article{
+        position: absolute;
+        text-align: center;
+        width: 620px;
+        height: 300px;
+        margin-left: -80px;
+        
+    }
+    .main-article h1{
+        text-align: center;
+    }
+    
+    
+    .main-title{
+        float: left;
+        margin-top: -50px;
+        margin-left: -100px;
+    }
+    .main-subtitle{
+        text-align: left;
+    }
+    .main-img{
+        margin-top: 0px;
+    }
+    
+}
 
